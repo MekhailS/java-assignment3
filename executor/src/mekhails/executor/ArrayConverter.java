@@ -11,7 +11,7 @@ class ArrayConverter
         short[] res = new short[src.length/2];
 
         ByteBuffer byteBuffer = ByteBuffer.wrap(src);
-        for (int i = 0; i <= res.length; i++)
+        for (int i = 0; i < res.length; i++)
         {
             res[i] = byteBuffer.getShort(2*i);
         }

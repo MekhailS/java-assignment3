@@ -175,7 +175,7 @@ public class Reverser extends AConfigurable implements IExecutor {
         return res;
     }
 
-    private static final TYPE[] POTENTIAL_TYPES = {TYPE.BYTE, TYPE.SHORT};
+    private static final TYPE[] POTENTIAL_TYPES = {TYPE.SHORT, TYPE.BYTE};
 
     private byte[] data;
 
