@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="executor_shagvaliev">
+    <output-path>$PROJECT_DIR$/out/artifacts/executor_shagvaliev</output-path>
+    <root id="archive" name="executor_shagvaliev.jar">
+      <element id="module-output" name="executor" />
+    </root>
+  </artifact>
+</component>

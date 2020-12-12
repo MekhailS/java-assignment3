@@ -1,0 +1,7 @@
+# line which starts with '#' is a comment
+
+# supported types:
+# out: byte, short
+
+# buffer size: positive even value
+buffer size: 100

@@ -1,0 +1,8 @@
+# line which starts with '#' is a comment
+
+# supported types:
+# in: byte, short
+# out: byte, short
+
+# enable reversing: 'True' or 'False'
+enable reversing: True
