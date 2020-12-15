@@ -4,4 +4,4 @@
 # out: byte, short
 
 # buffer size: positive even value
-buffer size: 100
+buffer size: 2000

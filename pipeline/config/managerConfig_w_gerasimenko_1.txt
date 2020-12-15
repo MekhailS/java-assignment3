@@ -1,0 +1,17 @@
+# line which starts with '#' is a comment
+
+# input and output
+input file: resources\in\in_2kk.txt
+output file: resources\out\out_2kk.txt
+
+# viktor's reader
+reader: com.Viktor.main.Reader ; config\configs_workers_gerasimenko\readerConfig.txt
+
+# pair of my executors (encoder and decoder)
+worker: mekhails.executor.Reverser; config\configs_workers_my\executorConfig.txt
+worker: mekhails.executor.Reverser ; config\configs_workers_my\executorConfig.txt
+
+# my writer
+writer: mekhails.writer.ByteWriter ; config\configs_workers_my\writerConfig.txt
+
+
